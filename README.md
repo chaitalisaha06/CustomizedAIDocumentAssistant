@@ -19,8 +19,9 @@ To run this project, ensure you have the following dependencies installed:
 ## Setup Instructions
 ### Clone the repository:
 
-git clone <repository-url>
-cd <repository-directory>
+git clone <repository_url>
+
+cd <repository_directory>
 
 
 
@@ -28,7 +29,8 @@ cd <repository-directory>
 ### Create a virtual environment (optional but recommended):
 
 python -m venv venv
-source venv/bin/activate  # On Windows use venv\Scripts\activate
+
+source venv/bin/activate     # On Windows use venv\Scripts\activate
 
 
 
