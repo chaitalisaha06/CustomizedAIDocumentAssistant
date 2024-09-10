@@ -13,7 +13,7 @@ from langchain_groq import ChatGroq
 import getpass
 import os
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "[GROQ_API_KEY]"
 
 
 st.title("CUSTOMIZED OWN CHATGPT")
@@ -75,7 +75,7 @@ schema = {
 }
 
 index = SearchIndex.from_dict(schema)
-index.connect("redis://default:8uWa4jpjKR7mIQYPF2qwQgEUWF0aYoO1@redis-15313.c301.ap-south-1-1.ec2.redns.redis-cloud.com:15313")
+index.connect("[REDIS CLI URL]")
 
 model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
