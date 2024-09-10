@@ -1,0 +1,7 @@
+langchain
+langchain_community
+sentence_transformers
+PyPDF2
+redisvl
+streamlit
+-qU langchain-groq
